@@ -7,10 +7,12 @@
   @media (max-width: 1024px) {
     padding-top: 5px;
     padding-bottom: 5px;
-    .header_top__logo,
+    .header_top__logo{
+      max-width: 10px;
     img {
       height: 40px;
     }
+  }
   }
   .header_top {
     display: flex;

@@ -8,18 +8,18 @@ import KuponsPage from "./routes/Kupons";
 import { store } from "./store";
 
 const App = () => {
+
   return (
     <StoreContext.Provider value={store}>
       <Switch>
         <Layout>
           <Route path="/404" component={NotFoundPage} />
           <Route path="/partners" component={PartnersPage} />
-
           <Route path="/coupons" component={KuponsPage} />
         </Layout>
       </Switch>
     </StoreContext.Provider>
   );
-};
+  };
 
 export default App;

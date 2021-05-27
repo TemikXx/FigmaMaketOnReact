@@ -18,7 +18,7 @@ class MyMap extends React.Component {
     ymaps
       .route(
         [
-          "Санет-Петербург",
+          "Санкт-Петербург",
           { type: "viaPoint", point: "Амстердам" },
           "Сочи",
           { type: "wayPoint", point: [43.585472, 39.723089] },
@@ -71,7 +71,7 @@ class MyMap extends React.Component {
             addRoute={this.addRoute}
           />
         </YMaps>
-        <button onClick={this.addRoute}>Add route</button>
+       
       </div>
     );
   }
